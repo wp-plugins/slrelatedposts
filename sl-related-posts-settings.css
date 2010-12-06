@@ -1,0 +1,15 @@
+div.sl_plugin_info
+{
+  float: right;
+  margin: 20px 0 5px 5px;
+  border: 1px solid #ccc;
+  padding: 8px 8px 8px 8px;
+  width: 290px;
+  background-color: #ff9;
+}
+
+div.sl_plugin_info h3 { font-size: 11pt; margin-top: 0; }
+div.sl_plugin_info p { font-size: 8pt; }
+
+.sl_plugin_edit .form-table { width: auto; clear: none; }
+.sl_plugin_edit .updated { width: 140px; }
