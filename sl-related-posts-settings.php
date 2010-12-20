@@ -160,12 +160,15 @@ class SL_Related_Posts_Settings
           <a href="http://www.steffen-liersch.de/">www.steffen-liersch.de</a>
         </p>
         <p>If you like this plug-in, you can leave a donation to support maintenance and development.</p>
-        <a style="outline: none;" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=9566236"><img
-          title="Leave a donation to support maintenance and development"
-          alt="PayPal - The safer, easier way to pay online!"
-          src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif"
-          width="147" height="47" border="0"
-        /></a>
+        <p>
+          <a style="outline: none;" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=9566236"><img
+            title="Leave a donation to support maintenance and development"
+            alt="PayPal - The safer, easier way to pay online!"
+            src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif"
+            width="147" height="47" border="0"
+          /></a>
+        </p>
+        <?php @readfile('http://www.steffen-liersch.de/advertisement/?mode=div&type=long'); ?>
       </div>
     </div>
     <?php

@@ -3,7 +3,7 @@
 Plugin Name: SLRelatedPosts
 Plugin URI: http://www.steffen-liersch.de/wordpress/
 Description: This plug-in installs a sidebar widget and an optional content filter to list related posts.
-Version: 1.0
+Version: 1.1
 Author: Steffen Liersch
 Author URI: http://www.steffen-liersch.de/
 */

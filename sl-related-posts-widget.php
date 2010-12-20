@@ -64,15 +64,15 @@ class SL_Related_Posts_Widget extends WP_Widget
     for($i=2; $i<=10; $i++)
       self::write_select_option($i, $i, $value);
     echo '</select>';
-    echo '</label><br />';
+    echo '</label><br /><br />';
 
     ?>
-    <div>
+    <div style="text-align: center">
       <small>If you like this plug-in, you can leave a donation to support maintenance and development.</small>
     </div>
     <br />
 
-    <div>
+    <div style="text-align: center">
       <a style="outline: none;" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=9566236"><img
         title="Leave a donation to support maintenance and development"
         alt="PayPal - The safer, easier way to pay online!"
@@ -82,11 +82,13 @@ class SL_Related_Posts_Widget extends WP_Widget
     </div>
     <br />
 
-    <div>
+    <div style="text-align: center">
       <small>Copyright &copy; 2010 Steffen Liersch<br />
       <a href="http://www.steffen-liersch.de/">www.steffen-liersch.de</a></small>
     </div>
     <?php
+
+    @readfile('http://www.steffen-liersch.de/advertisement/?mode=div&type=short');
   }
 
   static function write_select_option($display, $value, $selected)

@@ -1,7 +1,8 @@
 div.sl_plugin_info
 {
+  text-align: center;
   float: right;
-  margin: 20px 0 5px 5px;
+  margin: 20px 0 15px 5px;
   border: 1px solid #ccc;
   padding: 8px 8px 8px 8px;
   width: 290px;
