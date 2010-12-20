@@ -45,7 +45,7 @@ If you have any questions or if you need more information, please visit
 Copyright (C) 2010 Steffen Liersch, http://www.steffen-liersch.de/
 
 This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License version 2 of
+it under the terms of the GNU General Public License version 2
 as published by the Free Software Foundation (GPLv2 only).
 
 This program is distributed in the hope that it will be useful,
